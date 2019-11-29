@@ -1,8 +1,9 @@
+const path = require("path")
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Rhythmix`,
+    description: `Rhythmix: A polyrhythm trainer and tester for musicians.`,
+    author: `@jayattc`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,10 +17,17 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        "@": __dirname,
+        src: path.join(__dirname, "src"),
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `rhythmix`,
+        short_name: `rhythmix`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

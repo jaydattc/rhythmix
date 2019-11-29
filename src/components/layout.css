@@ -156,6 +156,22 @@ legend {
   padding: 0;
   white-space: normal;
 }
+@keyframes lefthand {
+  from {
+    background: white;
+  }
+  to {
+    background: #f56565;
+  }
+}
+@keyframes righthand {
+  from {
+    background: white;
+  }
+  to {
+    background: #48bb78;
+  }
+}
 textarea {
   overflow: auto;
 }
