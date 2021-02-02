@@ -1,0 +1,32 @@
+@keyframes lefthand {
+  from {
+    background: yellow;
+  }
+  to {
+    background: #f56565;
+  }
+}
+@keyframes righthand {
+  from {
+    background: yellow;
+  }
+  to {
+    background: #48bb78;
+  }
+}
+@keyframes lefthandassist {
+  from {
+    background: yellow;
+  }
+  to {
+    background: #f56565;
+  }
+}
+@keyframes righthandassist {
+  from {
+    background: yellow;
+  }
+  to {
+    background: #48bb78;
+  }
+}

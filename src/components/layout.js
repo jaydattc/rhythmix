@@ -1,11 +1,4 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
-import React from "react"
+import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Box, Text, Link as A } from "@chakra-ui/core"
@@ -42,8 +35,7 @@ const Layout = ({ children }) => {
           bg="cadetblue"
           px="20px"
           py="10px"
-          border="2px solid"
-          borderX="4px solid"
+          borderTop="2px solid"
           alignItems="center"
           textAlign="center"
         >

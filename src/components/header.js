@@ -6,9 +6,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `cadetblue`,
-      border: "2px solid",
-      borderLeft: "4px solid",
-      borderRight: "4px solid",
+      borderBottom: "2px solid",
       boxSizing: "border-box",
     }}
   >
